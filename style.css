@@ -1,20 +1,31 @@
 body {
-  font-family: Arial, sans-serif;
-  max-width: 600px;
-  margin: auto;
-  padding: 2rem;
-  background-color: #f3f3f3;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f5f7fa;
 }
 
-main {
-  background: white;
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 2rem;
-  border-radius: 8px;
 }
 
-input, button {
-  display: block;
-  margin: 1rem 0;
-  padding: 0.5rem;
-  width: 100%;
+.card-form,
+.card-result,
+.card-table,
+.card-chart {
+  margin-top: 2rem;
+  background-color: #fff;
+}
+
+.card-form form {
+  margin-top: 1rem;
+}
+
+.resultados {
+  margin-top: 1.5rem;
+}
+
+h1, h2, h3 {
+  text-align: center;
 }

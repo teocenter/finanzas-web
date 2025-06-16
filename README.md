@@ -1,1 +1,3 @@
-﻿# Archivo base para README.md
+# Finanzas Web
+
+Simulador de crédito con React + Vite
